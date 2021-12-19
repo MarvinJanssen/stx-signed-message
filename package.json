@@ -1,0 +1,26 @@
+{
+  "name": "stx-signed-message",
+  "version": "1.0.0",
+  "description": "An example project to show how checking signatures in Clarity works.",
+  "main": "index.js",
+  "scripts": {
+    "sign-message": "ts-node ./scripts/sign-message.ts",
+    "console": "clarinet console",
+    "test": "clarinet test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvinJanssen/stx-signed-message.git"
+  },
+  "keywords": [],
+  "author": "Marvin Janssen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarvinJanssen/stx-signed-message/issues"
+  },
+  "homepage": "https://github.com/MarvinJanssen/stx-signed-message#readme",
+  "devDependencies": {
+    "@stacks/transactions": "^3.1.0",
+    "ts-node": "^10.4.0"
+  }
+}

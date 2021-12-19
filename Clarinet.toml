@@ -1,0 +1,8 @@
+[project]
+name = "signed-message"
+requirements = []
+costs_version = 1
+
+[contracts.verified-messages]
+path = "contracts/verified-messages.clar"
+depends_on = []
